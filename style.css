@@ -1,0 +1,59 @@
+.clearfix::after {
+    content: " ";
+    display: block;
+    clear: both;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777;
+    background: #777;
+    /* width: 960px; */
+    font-size: 18px;
+}
+#header {
+    margin: auto;
+    width: 80%;
+    padding: 40px;
+    background: #ebebeb;
+    text-align: center;
+}
+#nav {
+    margin:auto;
+    margin-top: 10px;
+    width: 80%;
+    padding: 40px;
+    background: #ebebeb;
+    text-align: center;
+}
+#section {
+    float: left;
+    margin-top: 20px;
+    position: relative;
+    left: 146px;
+    width: 40%;
+    height: 500px;
+    padding: 40px;
+    background: #ebebeb;
+    text-align: center;
+}
+#aside {
+    float: right;
+    margin-top: 20px;
+    position: relative;
+    right: 146px;
+    width: 35%;
+    height: 500px;
+    padding: 40px;
+    background: #ebebeb;
+    text-align: center;
+}
+#article {
+    color: #ebebeb;
+    position: absolute;
+    top: 90px;
+    width: 80%;
+    background: #777;
+    padding: 40px;
+    height: 375px;
+
+}
